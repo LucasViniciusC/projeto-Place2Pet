@@ -87,6 +87,10 @@ span {
     padding-top: 25px;
 }
 
+#depoimento-sessao{
+    position: relative;
+}
+
 .texto-capa {
     animation-name: transicaoTexto;
     animation-duration: 1.2s;
@@ -189,7 +193,7 @@ span {
     background-size: cover;
     background-size: 1400px;
     background-position: 40%;
-    padding-top: 150px;
+    padding-top: 110px;
 }
 
 #adote h2 {
@@ -205,12 +209,19 @@ span {
 }
 
 #depoimentos img {
-    margin-left: auto;
+    margin-left: 50%;
+    transform: translate(-50%);
     border-radius: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     height: 310px;
     width: 210px;
+    transition: all .3s ease;
+
+}
+
+.borda{
+    border: 1px solid red;
 }
 
 #depoimentos {
@@ -218,7 +229,7 @@ span {
 }
 
 #depoimentos img:hover {
-    transition: 180ms;
+    transition: all .10s ease;
 }
 
 .card-depoimento:hover {
@@ -237,7 +248,7 @@ span {
 .texto-depoimento {
     text-align: center;
     margin-top: 15px;
-    padding-left: 50px;
+    line-height: 25px;
     padding-top: 10px;
 }
 
@@ -705,8 +716,10 @@ select {
 }
 
 .card-blog img {
-    border-radius: 15px 15px;
+    border-radius: 15px;
     border: 5px solid #1900ff2d;
+    margin-left: 50%;
+    transform: translate(-50%) ;
 }
 
 .card-blog:hover {
@@ -747,7 +760,7 @@ img
 #banner-blog {
     height: 325px;
     background: url(../img/fundos/Design\ sem\ nome.png);
-    background-position-y: -280px;
+    background-position: -280%;
     background-size: cover;
 }
 
