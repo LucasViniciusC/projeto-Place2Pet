@@ -889,7 +889,7 @@ img
 
 #banner-institucional-baixo {
     height: 325px;
-    background: url(../img/fundo.PNG);
+    background: url(../img/banner-home.PNG);
     background-position-y: -150px;
     background-size: cover;
 }
@@ -939,7 +939,6 @@ tr {
 
 .section-servicos {
     padding-top: 50px;
-    display: in;
 }
 
 #conteudo-servicos h2 {
