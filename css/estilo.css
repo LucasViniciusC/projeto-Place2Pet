@@ -57,7 +57,7 @@ span {
 }
 
 #home {
-    background: url(../img/fundo4.png) repeat-x;
+    background: url(../img/fundo.png) repeat-x;
     background-size: cover;
     height: 600px;
 }
@@ -528,7 +528,7 @@ img.imagem-produtos {
 }
 
 #banner-pagina-compra {
-    background: url(../img/fundo.PNG);
+    background: url(../img/fundo-compra.PNG);
     height: 300px;
     display: flex;
     background-position: 1px;
