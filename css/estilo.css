@@ -1,0 +1,1056 @@
+/* -------------------------------------------------------------------------- */
+/*                     ABERTURA DA ESTILIZAÇÃO PADRÃO DA PÁGINA               */
+/* -------------------------------------------------------------------------- */
+
+body {
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    animation-name: transicaoLogo;
+    animation-duration: 1s;
+}
+
+a.logo {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.logo a,
+span {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(173, 114, 230);
+}
+
+.header-padrao {
+    background: rgba(0, 0, 0, 0.479);
+    padding: 10px 0;
+}
+
+.texto-header a {
+    font-weight: 200;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: rgb(157, 120, 206);
+    transition: all 0.3s ease-in;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+#home {
+    background: url(../img/fundo4.png) repeat-x;
+    background-size: cover;
+    height: 600px;
+}
+
+.barra-busca {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                     FECHAMENTO DAS ESTILIZAÇÃO PADRÕES DA PÁGINA           */
+/* -------------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                         ABERTURA DA ESTILIZAÇÃO DA HOMEPAGE                */
+/* -------------------------------------------------------------------------- */
+
+#adote {
+    background: white;
+    padding-top: 25px;
+}
+
+#depoimentos {
+    background: white;
+    padding-top: 25px;
+}
+
+.texto-capa {
+    animation-name: transicaoTexto;
+    animation-duration: 1.2s;
+}
+
+.texto-capa h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    text-shadow: 9px 5px 50px black;
+    padding-bottom: 25px;
+}
+
+.texto-capa p {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 22px;
+    text-align: center;
+}
+
+#conteudo {
+    background: white;
+    padding: 80px 0px;
+}
+
+.card {
+    box-shadow: 0px 20px 50px rgb(185, 184, 184);
+    border-radius: 25px;
+    animation-name: transicaoConteudo;
+    animation-duration: 3s;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-body h5 {
+    color: #8340ee;
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.row {
+    padding-bottom: 30px;
+}
+
+.texto-servicos {
+    border: 1px solid red;
+}
+
+.texto-servicos h2 {
+    text-align: center;
+}
+
+.botoes {
+    border-radius: 10px;
+    background: rgb(133, 87, 240);
+    color: white;
+}
+
+.botoes:hover {
+    background: linear-gradient(#8340ee, #7608dd);
+    color: white;
+    transition: 1s;
+    letter-spacing: 1.2px;
+}
+
+#texto-secundario {
+    height: 350px;
+    display: flex;
+    background-image: url(../img/fundo5.PNG);
+    background-size: cover;
+}
+
+#texto-secundario h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+#texto-secundario p {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+#busca {
+    margin-left: 100px;
+}
+
+#adote {
+    padding: 200px 0;
+    background: url(../img/fundo7.PNG);
+    background-size: cover;
+    background-size: 1400px;
+    background-position: 40%;
+    padding-top: 150px;
+}
+
+#adote h2 {
+    padding-bottom: 15px;
+    color: blueviolet;
+}
+
+#adote p {
+    padding-bottom: 15px;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    text-align: justify;
+}
+
+#depoimentos img {
+    margin-left: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    height: 310px;
+    width: 210px;
+}
+
+#depoimentos {
+    padding-top: 150px;
+}
+
+#depoimentos img:hover {
+    transition: 180ms;
+}
+
+.card-depoimento:hover {
+    transition: 180ms ease-out;
+    transform: scale(1.1) ;
+
+}
+
+#depoimentos h2 {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.texto-depoimento {
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.card-depoimento:hover {
+    letter-spacing: 0.5px;
+}
+
+#localizacao {
+    padding-top: 90px;
+    background: linear-gradient(#fefefe, #888888);
+    padding-bottom: 10px;
+}
+
+#localizacao h2 {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.localizacao-maps {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#localizacao li {
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#dicas {
+    background: #888888;
+}
+
+#dicas {
+    padding: 90px 0;
+}
+
+#dicas h2 {
+    padding-bottom: 15px;
+    color: blueviolet;
+}
+
+#dicas p {
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                      FECHAMENTO DA ESTILIZAÇÃO DA HOMEPAGE                 */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                      ABERTURA DA ESTILIZAÇÃO DO RODAPÉ                     */
+/* -------------------------------------------------------------------------- */
+
+#rodape {
+    background: #9c58ad;
+    padding-top: 30px;
+}
+
+#rodape h4 {
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#rodape ul li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 200;
+    padding: 2px;
+}
+
+#rodape ul {
+    margin: 0;
+    padding: 0;
+}
+
+#rodape a:hover {
+    color: #2e2e2e;
+}
+
+.area-redes-sociais li {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.area-redes-sociais a {
+    width: 35px;
+}
+
+.limpar {
+    clear: both;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                      FECHAMENTO DA ESTILIZAÇÃO DO RODAPÉ                   */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                     ABERTURA DA ESTILIZAÇÃO DA PÁGINA DE PRODUTOS          */
+/* -------------------------------------------------------------------------- */
+
+
+#carrosel-topo-produtos {
+    height: 600px;
+    display: flex;
+    background-image: url(../img/Capturar_banner.PNG);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+#carrosel-topo-produtos h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+#carrosel-topo-produtos p {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.cards-produtos {
+    padding-bottom: 20px;
+}
+
+.cards-produtos:hover {
+    letter-spacing: 1.8px;
+}
+
+.cards-produtos h5 {
+    text-align: center;
+}
+
+.cards-produtos img {
+    border-radius: 15px 15px 0 0;
+}
+
+#banner-pagina-produto {
+    background: url(../img/fundo5.PNG) no-repeat;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+}
+
+.texto-capa-produto h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+    text-shadow: 9px 5px 50px black;
+    padding-bottom: 25px;
+}
+
+.texto-capa-produto p {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+
+.produtos h2 {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 80px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.produtos span {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.cards-produtos img:hover {
+    cursor: pointer;
+    transition: 180ms;
+}
+
+/* -------------------------------------------------------------------------- */
+/*               FECHAMENTO DA ESTILIZAÇÃO DA PÁGINA DE PRODUTOS              */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                 ABERTURA DA ESTILIZAÇÃO DA PÁGINA DE COMPRA                */
+/* -------------------------------------------------------------------------- */
+
+#compra {
+    background: white;
+    margin-top: 75px;
+    padding: 40px 0px;
+}
+
+img.imagem-produtos {
+    width: 500px;
+    float: right;
+    animation-name: transicaoConteudo;
+    animation-duration: 3s;
+    box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+}
+
+.produto_compra {
+    border: 3px solid rgba(0, 0, 0, 0.041);
+    border-radius: 20px;
+}
+
+.produto_compra h4 {
+    font-size: 27px;
+    color: #7608ddb0;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.produto_compra h5 {
+    color: #8340ee8f;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.produto_compra h6 {
+    font-weight: 300;
+}
+
+.produto_compra input {
+    width: 85px;
+    border: 1px solid #88888891;
+    height: 35px;
+    margin-left: 7px;
+    margin-bottom: 30px;
+}
+
+.descricao {
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.descricao-produtos {
+    padding-bottom: 15px;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.botao-produtos {
+    border-radius: 20px;
+    width: 75%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.icone {
+    float: right;
+    padding: 35px;
+    margin-right: 15px;
+}
+
+.icone:hover {
+    color: red;
+}
+
+#banner-pagina-compra {
+    background: url(../img/fundo.PNG);
+    height: 300px;
+    display: flex;
+    background-position: 1px;
+    background-size: cover;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                 FECHAMENTO DA ESTILIZAÇÃO DA PÁGINA DE COMPRA                */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                ABERTURA DA ESTILIZAÇÃO DA PÁGINA DE CONTATO                */
+/* -------------------------------------------------------------------------- */
+
+#contato {
+    background: white;
+    margin-top: 75px;
+    padding-top: 40px;
+}
+
+#contato h3 {
+    color: #8340ee;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+#contato span {
+    color: #5f5e5e;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.borda-arredondada input,
+select {
+    border-radius: 80px;
+    height: 50px;
+}
+
+.form-control {
+    border-radius: 15px;
+}
+
+.form-select {
+    border-radius: 15px;
+}
+
+.form-floating>.form-select {
+    padding-top: 8px;
+}
+
+.texto-contato {
+    color: #8340ee;
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+.area-lateral-contato {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.btn-contato {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#8340ee, #7608dd);
+    color: white;
+}
+
+.btn-contato {
+    border-radius: 10px;
+    background: rgb(133, 87, 240);
+    color: white;
+    margin-top: 35px;
+}
+
+.btn-contato:hover {
+    color: white;
+    transition: 0.2s;
+    letter-spacing: 1.2px;
+}
+
+#banner-contato {
+    height: 325px;
+    background: url(../img/fundos/faleconosco.png);
+    background-position-y: -250px;
+    background-size: cover;
+}
+
+.card-blog img {
+    float: left;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                  FECHAMENTO ESTILIZAÇÃO PÁGINA DE CONTATO                  */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                     ABERTURA ESTILIZAÇÃO PÁGINA DO BLOG                    */
+/* -------------------------------------------------------------------------- */
+#blog {
+    background: #c5a2fd;
+}
+
+#carossel-blog {
+    margin: 80px;
+    padding-top: 50px;
+}
+
+.imagem-blog {
+    width: 500px;
+    height: 300px;
+}
+
+.texto-carrosel-blog {
+    height: 290px;
+    float: right;
+    padding-left: 350px;
+}
+
+.texto-carrosel-blog h5 {
+    font-size: 27px;
+    font-weight: 200;
+    color: #9c58ad;
+    text-align: start;
+}
+
+.texto-carrosel-blog p {
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: 200;
+    text-align: justify;
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    filter: invert(0) grayscale(100);
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #9c58ad;
+}
+
+#conteudo-blog {
+    background: white;
+    padding: 50px;
+}
+
+#conteudo-blog h2 {
+    color: #8340ee;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.img-card-blog {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.btn-blog {
+    border-radius: 10px;
+    background: rgb(133, 87, 240);
+    color: white;
+    height: 30px;
+    padding-top: -80px;
+}
+
+.card-blog img {
+    border-radius: 15px 15px;
+    border: 5px solid #1900ff2d;
+}
+
+.card-blog:hover {
+    transition: ease-in-out 10ms;
+    margin: 1px;
+    cursor: pointer;
+}
+
+#posts-blog {
+    padding-top: 50px;
+}
+
+#posts-blog p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#posts-blog h5:hover {
+    color: #b980f0;
+}
+
+.card-posts img {
+    border-radius: 0;
+}
+
+
+img
+.img-ilustracao {
+    width: 400px;
+    float: right;
+}
+
+.fa-calendar-alt {
+    padding-left: 20px;
+    color: #8340ee91;
+}
+
+#banner-blog {
+    height: 325px;
+    background: url(../img/fundos/Design\ sem\ nome.png);
+    background-position-y: -280px;
+    background-size: cover;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                    FECHAMENTO DA  ESTILIZAÇÃO PÁGINA DO BLOG               */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*            ABERTURA ESTILIZAÇÃO DA PÁGINA INDIVIDUAL DE NOTÍCIAS           */
+/* -------------------------------------------------------------------------- */
+
+#banner-blog-noticia-musica {
+    height: 600px;
+    background: url(../img/fundos/blog4.png);
+    background-size: cover;
+}
+
+#banner-blog-noticia-corona {
+    height: 600px;
+    background: url(../img/fundos/blog3.png);
+    background-size: cover;
+}
+
+#banner-blog-noticia-depressao {
+    height: 600px;
+    background: url(../img/fundos/blog7.png);
+    background-size: cover;
+}
+
+#banner-blog-noticia-investimento {
+    height: 600px;
+    background: url(../img/fundos/blog3\ \(1\).png);
+    background-size: cover;
+}
+
+#banner-blog-noticia-adestramento {
+    height: 600px;
+    background: url(../img/fundos/blog6.png);
+    background-size: cover;
+
+}
+
+#banner-blog-noticia-erva-gato {
+    height: 600px;
+    background: url(../img/fundos/blog8.png);
+    background-size: cover;
+}
+
+#conteudo-noticia {
+    background: white;
+    height: 100%;
+}
+
+.texto-noticia h2 {
+    color: #8340ee;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.texto-noticia h3 {
+    color: #8340eea4;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid #9c58ad28;
+    padding-bottom: 15px;
+}
+
+.texto-noticia p {
+    font-size: 23px;
+    margin-top: 25px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.divisao-conteudo-noticia {
+    margin-top: 25px;
+    margin-left: 150px;
+    width: 20%;
+}
+
+.lista-posts-visualizacao a:hover {
+    letter-spacing: 0.10px;
+}
+
+.lista-posts-visualizacao .fw-bold:hover {
+    color: #8340eec5;
+}
+
+/* -------------------------------------------------------------------------- */
+/*            FECHAMENTO ESTILIZAÇÃO DA PÁGINA INDIVIDUAL DE NOTICIAS           */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*               ABERTURA ESTILIZAÇÃO DA PÁGINA INSTITUCIONAL               */
+/* -------------------------------------------------------------------------- */
+
+#banner-institucional {
+    height: 600px;
+    background: url(../img/fundos/Design\ sem\ nome.png);
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+#conteudo-institucional {
+    background: white;
+    height: 1600px;
+}
+
+#conteudo-institucional h2 {
+    padding: 40px 0px;
+    color: #8340ee;
+    font-weight: 500;
+}
+
+.img-institucional img {
+    float: right;
+    position: relative;
+    width: 550px;
+}
+
+.img-institucional-2 img {
+    float: left;
+    position: relative;
+    width: 550px;
+}
+
+.texto-institucional p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.63);
+    text-align: justify;
+}
+
+#banner-institucional-baixo {
+    height: 325px;
+    background: url(../img/fundo.PNG);
+    background-position-y: -150px;
+    background-size: cover;
+}
+
+#tabela-funcionamento {
+    background: white;
+}
+
+.tabela-institucional {
+    background: linear-gradient(#de9ff7, #b877f5);
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    float: right;
+    width: 800px;
+    margin-top: 15px;
+    margin-right: 14%;
+    border-radius: 5px;
+}
+
+.tabela-institucional th,
+tr {
+    border-color: black;
+    color: rgb(65, 15, 66);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                 FECHAMENTO ESTILIZAÇÃO PÁGINA INSTITUCIONAL                */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                 ABERTURA ESTILIZAÇÃO DA PÁGINA DE SERVICOS                 */
+/* -------------------------------------------------------------------------- */
+
+#banner-servico {
+    height: 600px;
+    background: url(../img/fundos/fundo2.png);
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+#conteudo-servicos {
+    background: white;
+    padding-top: 25px;
+}
+
+.section-servicos {
+    padding-top: 50px;
+    display: in;
+}
+
+#conteudo-servicos h2 {
+    font-size: 45px;
+    color: #8340ee;
+    font-weight: 400;
+    padding: 18px 0;
+    border-bottom: 1px solid #8340ee27;
+}
+
+#servicos {
+    background: white;
+    padding-top: 100px;
+    border-top: 1px solid #8340ee27;
+}
+
+.card-servicos {
+    background: white;
+}
+
+.card-servicos img {
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.164);
+}
+
+.card-servicos img:hover {
+    padding: 0.10px;
+}
+
+#servicos h2 {
+    color: #8340ee;
+    font-size: 45px;
+    padding: 40px 0px;
+    font-weight: 300;
+}
+
+.tabela-servicos th {
+    background: #7608dd6e;
+    border: 1px solid;
+}
+
+.tabela-servicos td {
+    background: #9a35f86e;
+    border: 1px solid;
+}
+
+img,
+.img-servicos {
+    width: 500px;
+}
+
+.variacao-texto-servico {
+    padding-bottom: 80px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*               FECHAMENTO DA ESTILIZAÇÃO DA PÁGINA DE SERVIÇOS              */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                           ANIMAÇÕES COM KEYFRAMES                          */
+/* -------------------------------------------------------------------------- */
+
+
+@keyframes transicaoConteudo {
+    from {
+        transform: rotate(1.4) scale(0.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: rotate(1.4) scale(1);
+        opacity: 1;
+    }
+
+}
+
+@keyframes transicaoLogo {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes transicaoTexto {
+    0% {
+        opacity: 0;
+        transition: ease-in-out;
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transition: ease-in;
+
+    }
+}
